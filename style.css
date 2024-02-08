@@ -208,11 +208,11 @@ header {
   width: 60%;
 }
 .progress-line .git {
-  width: 50%;
+  width: 60%;
 }
 
 .progress-line .canva {
-    width: 50%;
+    width: 60%;
   }
 
 .bar .progress-line span::before {
