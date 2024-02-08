@@ -75,7 +75,7 @@ header {
 }
 
 .home-content .name h1 {
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ header {
   font-size: 1.5rem;
 }
 
-.angle-down-icon {
+/* .angle-down-icon {
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -98,7 +98,7 @@ header {
   text-decoration: none;
   color: #07374a;
   padding: 1rem;
-}
+} */
 
 /* ////........About Me........//// */
 
@@ -116,7 +116,7 @@ header {
 
 .about-content img {
   height: 200px;
-  width: 150px;
+  width: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -126,6 +126,7 @@ header {
   color: #f0f0e6;
   padding: 0 2.3rem;
   text-align: center;
+  margin-top:20px;
 }
 
 .skills .skills-heading {
@@ -206,11 +207,11 @@ header {
 .progress-line .javascript {
   width: 60%;
 }
-.progress-line .excel {
+.progress-line .git {
   width: 50%;
 }
 
-.progress-line .cad {
+.progress-line .canva {
     width: 50%;
   }
 
@@ -249,11 +250,11 @@ header {
 .progress-line .javascript::after {
   content: "60%";
 }
-.progress-line .excel::after {
+.progress-line .git::after {
   content: "50%";
 }
 
-.progress-line .cad::after {
+.progress-line .canva::after {
     content: "50%";
   }
 
@@ -649,7 +650,12 @@ header {
     display: block;
     text-align: center;
   }
-
+  #contact-me{
+    font-size:3.5rem;
+  }
+.links{
+  margin-top:20px;
+}
   .contact-content {
     width: 100%;
   }
